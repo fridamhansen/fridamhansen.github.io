@@ -98,6 +98,11 @@ button {
 
 /* Button start */
 
+.button-primary (
+
+)
+
+
 /* Button slutt */
 
 /* Card start */
@@ -150,7 +155,13 @@ button {
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0;
   border-radius: 5px;
   overflow: hidden;
-  background-color: var(--bakgrunnsfarge);
+  background-color: var(--button-primary-background-color);
+  color: var(--button-color);
+  font-size: var(button-font-size);
+  border-radius: var(--button-border-radius);
+  padding: var(--button-padding);
+  border: none;
+  cursor: pointer;
 }
 
 .preview-component {
